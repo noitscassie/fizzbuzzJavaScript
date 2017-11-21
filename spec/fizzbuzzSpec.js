@@ -2,7 +2,6 @@ describe("Fizzbuzz", function() {
   it("should print Fizz when number equals 3", function() {
     expect(fizzbuzz(3)).toBe("Fizz");
   });
-
   it("should print out Buzz when number equals 5", function() {
     expect(fizzbuzz(5)).toBe("Buzz")
   });
